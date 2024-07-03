@@ -1,0 +1,72 @@
+/* Ensure the container takes the full height of the viewport */
+.registration-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2c2c2c;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Center the form within the column */
+.registration-form-wrapper {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 35px !important;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  text-align: center;
+  color: lightgray;
+  font-family: "Roboto", sans-serif !important;
+
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: lightgray;
+  font-family: "Roboto", sans-serif !important;
+
+}
+
+/* Form styling */
+.text {
+  color: lightgray;
+  margin: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.placeholder{
+  font-size: 20px;
+
+}
+
+.btn {
+  font-size: 15px;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+/* Remove box styling for input controls */
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #fff; /* Add underline */
+  background-color: transparent; /* Transparent background */
+  color: gray;
+  caret-color: #fff; /* Color of the cursor */
+}
+
+/* Remove outline on focus */
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}

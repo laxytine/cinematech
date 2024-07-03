@@ -1,0 +1,60 @@
+/* Ensure the container takes the full height of the viewport */
+.login-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2c2c2c;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Center the form within the column */
+.login-form-wrapper {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.title {
+  font-size: 35px !important;
+  text-transform: uppercase;
+  margin-bottom: 20px !important;
+  text-align: center;
+  color: lightgray;
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* Form styling */
+.text-white {
+  color: lightgray;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+
+#submitBtn {
+  font-size: 15px;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+/* Remove box styling for input controls */
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: gray;
+  caret-color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Remove outline on focus */
+.form-control:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
